@@ -1,6 +1,7 @@
 import './App.css';
 import { MuiAccordion } from './Components/MuiAccordion';
 import { MuiAutoComplete } from './Components/MuiAutoComplete';
+import { MuiBreadCrumbs } from './Components/MuiBreadCrumbs';
 import { MuiButton } from './Components/MuiButton';
 import { MuiCheckBox } from './Components/MuiCheckBox';
 import { MuiImageList } from './Components/MuiImageList';
@@ -27,6 +28,7 @@ function App() {
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
       <MuiNavBar />
+      <MuiBreadCrumbs />
     </div>
   );
 }
