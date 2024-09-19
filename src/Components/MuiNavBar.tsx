@@ -1,11 +1,13 @@
 import { AppBar, Toolbar,IconButton, Typography, Stack, Button } from "@mui/material";
 import CatchingPokemonIcon  from "@mui/icons-material/CatchingPokemon";
+import { MuiDrawers } from "./MuiDrawers";
 
 export const MuiNavBar = () => {
   return (
     <AppBar position="static">
         <Toolbar>
             <Stack direction='row' sx={{ flexGrow: 1, alignItems: "center" }}>
+                <MuiDrawers />
                 <IconButton size="small" edge="start" color="inherit" aria-label="logo">
                     <CatchingPokemonIcon />
                 </IconButton>
